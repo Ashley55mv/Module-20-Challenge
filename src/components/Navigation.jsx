@@ -6,16 +6,16 @@ function Navigation() {
     <nav>
       <ul>
         <li>
-          <NavLink exact to="/" activeClassName="active">About Me</NavLink>
+          <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>About Me</NavLink>
         </li>
         <li>
-          <NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink>
+          <NavLink to="/portfolio" className={({ isActive }) => (isActive ? 'active' : '')}>Portfolio</NavLink>
         </li>
         <li>
-          <NavLink to="/contact" activeClassName="active">Contact</NavLink>
+          <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}>Contact</NavLink>
         </li>
         <li>
-          <NavLink to="/resume" activeClassName="active">Resume</NavLink>
+          <NavLink to="/resume" className={({ isActive }) => (isActive ? 'active' : '')}>Resume</NavLink>
         </li>
       </ul>
     </nav>

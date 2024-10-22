@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 function Header() {
   return (
     <header>
-      <h1>Developer's Name</h1>
+      <h1>Ash Cowan</h1>
       <Navigation />
     </header>
   );
